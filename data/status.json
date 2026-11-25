@@ -1,15 +1,15 @@
 {
-  "run_time": "2026-11-25T17:30:31.567474+00:00",
+  "run_time": "2026-11-25T17:41:50.483960+00:00",
   "first_run_date": "2026-11-25",
   "days_with_success": 1,
-  "open": 2465,
+  "open": 2742,
   "new_today": 0,
   "removed_today": 0,
   "sources": [
     {
       "name": "stripe",
       "ok": true,
-      "count": 772
+      "count": 771
     },
     {
       "name": "brex",
@@ -42,11 +42,6 @@
       "count": 78
     },
     {
-      "name": "plaid",
-      "ok": false,
-      "count": 0
-    },
-    {
       "name": "sofi",
       "ok": true,
       "count": 57
@@ -55,11 +50,6 @@
       "name": "betterment",
       "ok": true,
       "count": 23
-    },
-    {
-      "name": "wealthfront",
-      "ok": false,
-      "count": 0
     },
     {
       "name": "clearstreet",
@@ -79,12 +69,7 @@
     {
       "name": "janestreet",
       "ok": true,
-      "count": 218
-    },
-    {
-      "name": "twosigma",
-      "ok": false,
-      "count": 0
+      "count": 219
     },
     {
       "name": "point72",
@@ -92,19 +77,34 @@
       "count": 199
     },
     {
-      "name": "acadianassetmanagement",
-      "ok": false,
-      "count": 0
-    },
-    {
       "name": "flowtraders",
       "ok": true,
       "count": 44
     },
     {
-      "name": "hudsonrivertrading",
+      "name": "blackstone",
       "ok": false,
       "count": 0
+    },
+    {
+      "name": "icapitalnetwork",
+      "ok": true,
+      "count": 233
+    },
+    {
+      "name": "apollo",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "name": "a16z",
+      "ok": true,
+      "count": 21
+    },
+    {
+      "name": "financialtechnologypartners",
+      "ok": true,
+      "count": 23
     }
   ]
 }
