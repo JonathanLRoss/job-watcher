@@ -1,0 +1,110 @@
+{
+  "run_time": "2026-11-25T17:29:31.267939+00:00",
+  "first_run_date": "2026-11-25",
+  "days_with_success": 1,
+  "open": 2465,
+  "new_today": 0,
+  "removed_today": 0,
+  "sources": [
+    {
+      "name": "stripe",
+      "ok": true,
+      "count": 772
+    },
+    {
+      "name": "brex",
+      "ok": true,
+      "count": 261
+    },
+    {
+      "name": "ramp",
+      "ok": true,
+      "count": 1
+    },
+    {
+      "name": "robinhood",
+      "ok": true,
+      "count": 162
+    },
+    {
+      "name": "coinbase",
+      "ok": true,
+      "count": 246
+    },
+    {
+      "name": "affirm",
+      "ok": true,
+      "count": 215
+    },
+    {
+      "name": "chime",
+      "ok": true,
+      "count": 78
+    },
+    {
+      "name": "plaid",
+      "ok": false,
+      "count": 0
+    },
+    {
+      "name": "sofi",
+      "ok": true,
+      "count": 57
+    },
+    {
+      "name": "betterment",
+      "ok": true,
+      "count": 23
+    },
+    {
+      "name": "wealthfront",
+      "ok": false,
+      "count": 0
+    },
+    {
+      "name": "clearstreet",
+      "ok": true,
+      "count": 33
+    },
+    {
+      "name": "public",
+      "ok": true,
+      "count": 4
+    },
+    {
+      "name": "imc",
+      "ok": true,
+      "count": 152
+    },
+    {
+      "name": "janestreet",
+      "ok": true,
+      "count": 218
+    },
+    {
+      "name": "twosigma",
+      "ok": false,
+      "count": 0
+    },
+    {
+      "name": "point72",
+      "ok": true,
+      "count": 199
+    },
+    {
+      "name": "acadianassetmanagement",
+      "ok": false,
+      "count": 0
+    },
+    {
+      "name": "flowtraders",
+      "ok": true,
+      "count": 44
+    },
+    {
+      "name": "hudsonrivertrading",
+      "ok": false,
+      "count": 0
+    }
+  ]
+}
