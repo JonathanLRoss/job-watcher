@@ -4,7 +4,28 @@ from datetime import datetime,timezone
 from urllib.request import urlopen,Request
 ROOT=Path(__file__).resolve().parent
 DATA=ROOT/'data'
-SOURCES={'stripe':'Stripe','brex':'Brex','ramp':'Ramp','robinhood':'Robinhood','coinbase':'Coinbase','affirm':'Affirm','chime':'Chime','plaid':'Plaid','sofi':'SoFi','betterment':'Betterment','wealthfront':'Wealthfront','clearstreet':'Clear Street','public':'Public','imc':'IMC','janestreet':'Jane Street','twosigma':'Two Sigma','point72':'Point72','acadianassetmanagement':'Acadian Asset Management','flowtraders':'Flow Traders','hudsonrivertrading':'Hudson River Trading'}
+SOURCES={
+    'stripe': 'Stripe',
+    'brex': 'Brex',
+    'ramp': 'Ramp',
+    'robinhood': 'Robinhood',
+    'coinbase': 'Coinbase',
+    'affirm': 'Affirm',
+    'chime': 'Chime',
+    'sofi': 'SoFi',
+    'betterment': 'Betterment',
+    'clearstreet': 'Clear Street',
+    'public': 'Public',
+    'imc': 'IMC',
+    'janestreet': 'Jane Street',
+    'point72': 'Point72',
+    'flowtraders': 'Flow Traders',
+    'blackstone': 'Blackstone',
+    'icapitalnetwork': 'iCapital',
+    'apollo': 'Apollo Global Management',
+    'a16z': 'Andreessen Horowitz',
+    'financialtechnologypartners': 'FT Partners'
+}
 FIELDS='posting_id source source_id employer title location department posted_date url in_role first_run first_seen last_seen status removed_date'.split()
 def role(title):
  return bool(re.search(r'\banalyst\b',title,re.I) and re.search(r'investment bank|capital markets|corporate finance|financial analyst|equity research|valuation|investment analyst|mergers|acquisitions',title,re.I))
