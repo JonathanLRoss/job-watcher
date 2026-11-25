@@ -1,5 +1,5 @@
 {
-  "run_time": "2026-11-25T17:41:50.483960+00:00",
+  "run_time": "2026-11-25T17:50:59.504303+00:00",
   "first_run_date": "2026-11-25",
   "days_with_success": 1,
   "open": 2742,
@@ -82,7 +82,7 @@
       "count": 44
     },
     {
-      "name": "blackstone",
+      "name": "galaxydigital",
       "ok": false,
       "count": 0
     },
@@ -92,8 +92,8 @@
       "count": 233
     },
     {
-      "name": "apollo",
-      "ok": true,
+      "name": "virtufinancial",
+      "ok": false,
       "count": 0
     },
     {
