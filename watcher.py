@@ -20,9 +20,9 @@ SOURCES={
     'janestreet': 'Jane Street',
     'point72': 'Point72',
     'flowtraders': 'Flow Traders',
-    'blackstone': 'Blackstone',
+    'galaxydigital': 'Galaxy Digital',
     'icapitalnetwork': 'iCapital',
-    'apollo': 'Apollo Global Management',
+    'virtufinancial': 'Virtu Financial',
     'a16z': 'Andreessen Horowitz',
     'financialtechnologypartners': 'FT Partners'
 }
