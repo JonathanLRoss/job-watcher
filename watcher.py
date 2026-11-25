@@ -20,9 +20,7 @@ SOURCES={
     'janestreet': 'Jane Street',
     'point72': 'Point72',
     'flowtraders': 'Flow Traders',
-    'galaxydigital': 'Galaxy Digital',
     'icapitalnetwork': 'iCapital',
-    'virtufinancial': 'Virtu Financial',
     'a16z': 'Andreessen Horowitz',
     'financialtechnologypartners': 'FT Partners'
 }
